@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人主页</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: #f5f5f7;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #f8f8f8;
+            color: #333;
+            padding-top: 20px;
+            border-bottom: 1px solid #e1e1e1;
+            text-align: center;
+        }
+        header h1 {
+            font-weight: 600;
+        }
+        nav ul {
+            padding: 0;
+            list-style: none;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            padding: 0 20px;
+        }
+        nav ul li a {
+            color: #0071e3;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .showcase {
+            text-align: center;
+            padding: 50px 0;
+            background: #f5f5f7;
+            border-bottom: 1px solid #e1e1e1;
+        }
+        .showcase h1 {
+            font-size: 50px;
+            font-weight: 300;
+            margin-bottom: 10px;
+        }
+        .showcase p {
+            font-size: 20px;
+            color: #666;
+        }
+        .image-container {
+            margin: 20px 0;
+            text-align: center;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 12px;
+        }
+        .content {
+            padding: 20px;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            margin-bottom: 40px;
+        }
+        .content h2 {
+            font-weight: 600;
+            color: #333;
+        }
+        .content p {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>欢迎来到我的个人主页</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">关于我</a></li>
+                    <li><a href="#">联系我</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="showcase">
+        <div class="container">
+            <h1>你好，我是胡佳炜</h1>
+            <p>我喜欢打羽毛球虽然打的很烂，喜欢说唱虽然唱的很烂。</p>
+            <div class="image-container">
+                <img src="https://via.placeholder.com/500" alt="我的照片">
+                <!-- 替换 src 属性中的链接以更新图片 -->
+            </div>
+        </div>
+    </section>
+
+    <section class="content container">
+        <h2>关于我</h2>
+        <p>我来自湖北武汉，不会说武汉话，不喜欢吃热干面，没去过黄鹤楼。高中就读于名气大于实力的华中师大一附中</p>
+        
+        <h2>我的技能</h2>
+        <p>我能熟练掌握颗秒技术（骗你的）并且能够灵活运用chatgpt偷懒。</p>
+
+        <h2>联系我</h2>
+        <p>电话：18963960420      邮箱：mrryanhu@outlook.com</p>
+    </section>
+</body>
+</html>
